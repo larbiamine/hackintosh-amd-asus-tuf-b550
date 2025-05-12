@@ -14,8 +14,6 @@ OpenCore, drivers, and kexts are always up to date! (as soon as possible)
 
 This repository contains ONLY my complete EFI configuration based on personal experiments with my specific hardware. This is NOT a guide and should NOT be used as such. Before doing anything, please refer to the official [Dortania guide](https://dortania.github.io/getting-started/). This OpenCore configuration is optimized for my specific hardware. Use it only as a reference or if you have exactly the same or very similar hardware. I am NOT responsible for any damage caused by misuse of this configuration.
 
-<img src="assets/about-ryzentosh-15.0.png" style="width: 800px; height: auto;">
-
 ## :computer: Hardware:
 
 | **Category** | **Component**                                                                    |
@@ -56,15 +54,11 @@ Use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate your own uniq
 
 - Config.plist -> PlatformInfo -> Generic
 
-<img src="assets/smbios.png" style="width: 800px; height: auto;">
-
 ## BIOS setup:
 
 IMPORTANT: Need to **enable** Above 4G Decoding and set Resize BAR to Auto on BIOS or will not work!
 If you don't have this on your BIOS you will need to adjust the config.plist, refer to [AMD bios settings](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#amd-bios-settings) and [boot-args](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#nvram)
 
-
-<img src="assets/config-b550m-ds3h-rev1.0-biosF15.jpg" style="width: 800px; height: auto;">
 
 ## Credits:
 

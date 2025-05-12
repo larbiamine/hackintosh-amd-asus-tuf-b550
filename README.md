@@ -23,11 +23,11 @@ This repository contains ONLY my complete EFI configuration based on personal ex
 | **CPU**      | 3,5 GHz AMD Ryzen 5 5600 6-Core Processor                                        |
 | **GPU**      | ASROCK Challenger - AMD Radeon RX 6600 8 GB Challenger 8GB                       |
 | **RAM**      | 16GB GLOWAY DDR4 3200MHZ (XMP)                                                   |
-| **CHIPSET**  | B550M DS3H [Gigabyte](https://www.gigabyte.com/Motherboard/B550M-DS3H-rev-1x#kf) |
+| **CHIPSET**  | ASUS TUF GAMING B550-PLUS [ASUS](https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus/) |
 | **SSD**      | 120GB ADATA SATA                                                                 |
-| **Wi-Fi/BT** | Fenvi FV-HB1200                                                                  |
-| **Ethernet** | Realtek RTL8111                                                                  |
-| **Audio**    | Realtek ALC897 (layout-id=12)                                                    |
+| **Wi-Fi/BT** | Intel AX210                                                                      |
+| **Ethernet** | Realtek RTL8125B 2.5Gb Ethernet                                                  |
+| **Audio**    | Realtek ALC S1200A                                                               |
 
 ## :white_check_mark: Working:
 
@@ -35,7 +35,6 @@ This repository contains ONLY my complete EFI configuration based on personal ex
 - [x] Graphics acceleration.
 - [x] Keyboard & Mouse
 - [x] Wi-Fi.
-- [x] Bluetooth.
 - [x] USB ports.
 - [x] HDMI video & audio output.
 - [x] Ethernet.
@@ -47,11 +46,8 @@ This repository contains ONLY my complete EFI configuration based on personal ex
 - [x] iMessage & FaceTime.
 
 ## :x: Not working:
-
-~~Wi-fi, Bluetooth and AirDrop are not working since i don't have yet a native Wi-fi card and my motherboard doesn't have one.
-Currently using with wired network on my ethernet port~~
-
-All features are working, just added a Fenvi FV-HB1200 board. Now we have Wi-Fi, Bluetooth (usb mapped), AirDrop and others.
+- [ ] Bluetooth. ? i don't need it i didn't try to fix it
+- [ ] AirDrop. ? probably related to Bluetooth, i don't need it i didn't try to fix it
 
 ## :closed_lock_with_key: SMBIOS
 
@@ -71,8 +67,10 @@ If you don't have this on your BIOS you will need to adjust the config.plist, re
 
 <img src="assets/config-b550m-ds3h-rev1.0-biosF15.jpg" style="width: 800px; height: auto;">
 
-_Currently i'm running the F18 BIOS version and works great_
 ## Credits:
+
+https://github.com/gabrielcasag/EFI-RYZEN-5600-B550-RX6600
+[**Gabriel Gasperi Casagrande**](https://github.com/gabrielcasag/EFI-RYZEN-5600-B550-RX6600)
 
 [**Gabriel Luchina**](https://luchina.com.br)
 

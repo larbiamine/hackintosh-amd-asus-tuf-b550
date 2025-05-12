@@ -41,7 +41,6 @@ This repository contains ONLY my complete EFI configuration based on personal ex
 - [x] Audio (Internal speakers, 3.5mm headphone jack).
 - [x] Internal microphone.
 - [x] VGA WebCam.
-- [x] AirDrop & Handoff.
 - [x] iCloud & App Store.
 - [x] iMessage & FaceTime.
 
